@@ -1,5 +1,6 @@
 ﻿using CanisMajoris.Services.Contracts;
 using CanisMajoris.Shared.DataTransferObjects;
+using CompanyEmployees.API.ModelBinders;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
