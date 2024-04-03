@@ -7,11 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D2941F4-05A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{833AE12E-65E5-42E2-ADDC-6CC493C3676C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.API", "CompanyEmployees.API\CompanyEmployees.API.csproj", "{31CA7B42-203A-4C53-B76E-9B3C0CEAF5DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployees.API", "CompanyEmployees.API\CompanyEmployees.API.csproj", "{31CA7B42-203A-4C53-B76E-9B3C0CEAF5DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Contracts", "CanisMajoris.Contracts\CanisMajoris.Contracts.csproj", "{EF8B0E23-ECDA-4950-A53F-A208E3EE957B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Contracts", "CanisMajoris.Contracts\CanisMajoris.Contracts.csproj", "{EF8B0E23-ECDA-4950-A53F-A208E3EE957B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.LoggerService", "CanisMajoris.LoggerService\CanisMajoris.LoggerService.csproj", "{9E60763A-3A23-4AFD-987E-99A10B9F291F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.LoggerService", "CanisMajoris.LoggerService\CanisMajoris.LoggerService.csproj", "{9E60763A-3A23-4AFD-987E-99A10B9F291F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Entities", "CanisMajoris.Domain\CanisMajoris.Entities.csproj", "{19ACE405-A78C-4B71-9187-3014263A71A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Repository", "CanisMajoris.Repository\CanisMajoris.Repository.csproj", "{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,14 @@ Global
 		{9E60763A-3A23-4AFD-987E-99A10B9F291F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E60763A-3A23-4AFD-987E-99A10B9F291F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E60763A-3A23-4AFD-987E-99A10B9F291F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19ACE405-A78C-4B71-9187-3014263A71A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ACE405-A78C-4B71-9187-3014263A71A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ACE405-A78C-4B71-9187-3014263A71A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ACE405-A78C-4B71-9187-3014263A71A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,8 @@ Global
 		{31CA7B42-203A-4C53-B76E-9B3C0CEAF5DE} = {4D2941F4-05A5-4C91-84A1-DED65A2F1D43}
 		{EF8B0E23-ECDA-4950-A53F-A208E3EE957B} = {4D2941F4-05A5-4C91-84A1-DED65A2F1D43}
 		{9E60763A-3A23-4AFD-987E-99A10B9F291F} = {4D2941F4-05A5-4C91-84A1-DED65A2F1D43}
+		{19ACE405-A78C-4B71-9187-3014263A71A0} = {4D2941F4-05A5-4C91-84A1-DED65A2F1D43}
+		{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC} = {4D2941F4-05A5-4C91-84A1-DED65A2F1D43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72624221-8443-4513-A4A0-47B083D008AB}
