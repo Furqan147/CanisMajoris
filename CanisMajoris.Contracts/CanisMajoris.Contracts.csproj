@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CanisMajoris.Domain\CanisMajoris.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

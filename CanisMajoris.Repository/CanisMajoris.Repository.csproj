@@ -7,14 +7,11 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Configuration\" />
-	</ItemGroup>
-
-	<ItemGroup>
+	  <ProjectReference Include="..\CanisMajoris.Contracts\CanisMajoris.Contracts.csproj" />
 	  <ProjectReference Include="..\CanisMajoris.Domain\CanisMajoris.Entities.csproj" />
 	</ItemGroup>
 
