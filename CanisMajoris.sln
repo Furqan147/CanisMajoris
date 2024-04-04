@@ -13,15 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Contracts", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.LoggerService", "CanisMajoris.LoggerService\CanisMajoris.LoggerService.csproj", "{9E60763A-3A23-4AFD-987E-99A10B9F291F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Entities", "CanisMajoris.Domain\CanisMajoris.Entities.csproj", "{19ACE405-A78C-4B71-9187-3014263A71A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Entities", "CanisMajoris.Domain\CanisMajoris.Entities.csproj", "{19ACE405-A78C-4B71-9187-3014263A71A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Repository", "CanisMajoris.Repository\CanisMajoris.Repository.csproj", "{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Repository", "CanisMajoris.Repository\CanisMajoris.Repository.csproj", "{DEAD0724-25A2-4E57-8C86-1DA8A50BC4BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Services", "CanisMajoris.Services\CanisMajoris.Services.csproj", "{E1E4F648-FC69-46FB-8232-ABFBFA019DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Services", "CanisMajoris.Services\CanisMajoris.Services.csproj", "{E1E4F648-FC69-46FB-8232-ABFBFA019DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Services.Contracts", "CanisMajoris.Services.Contracts\CanisMajoris.Services.Contracts.csproj", "{F76D7D33-9A27-451C-880B-A7F5959B27B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Services.Contracts", "CanisMajoris.Services.Contracts\CanisMajoris.Services.Contracts.csproj", "{F76D7D33-9A27-451C-880B-A7F5959B27B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanisMajoris.Shared", "CanisMajoris.Shared\CanisMajoris.Shared.csproj", "{B2072975-AD91-4AE7-9D07-F0C071160C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanisMajoris.Shared", "CanisMajoris.Shared\CanisMajoris.Shared.csproj", "{B2072975-AD91-4AE7-9D07-F0C071160C82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
